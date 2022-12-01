@@ -1,0 +1,33 @@
+
+@mixin flex($direction, $justify, $align) {
+  align-items: $align;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+@mixin bg-image($image, $repeat, $position, $size) {
+  background: url($image) $repeat $position / $size;
+}
+
+@mixin font($size, $weight, $color) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin button($bg, $color, $border, $shadow) {
+  background-color: $bg;
+  border: $border;
+  box-shadow: $shadow;
+  color: $color;
+}
+
+@mixin position($position, $top, $right, $bottom, $left) {
+  bottom: $bottom;
+  left: $left;
+  position: $position;
+  right: $right;
+  top: $top;
+}
+

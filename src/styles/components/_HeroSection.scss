@@ -1,0 +1,41 @@
+.hero-section {
+  @include bg-image("../assets/heroImage.jpg", no-repeat, center, cover);
+  height: 100vh;
+  display: flex;
+  @include flex(column, center, center);
+  position: relative;
+}
+
+.hero-section__container {
+  width: 100%;
+  @include flex(column, center, center);
+}
+
+.hero-section__container--text {
+  width: 100%;
+  & h4 {
+    @include font(60px, 900, $color-bg);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 80px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 70%);
+  }
+}
+
+.hero-section__container--button {
+  @include flex(row, center, center);
+  & button {
+    @include button($color-bg, $color-text, 0, $shadow-1);
+    @include font(16px, 600, $color-text);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition: all $animation-duration ease-in-out;
+    &:hover {
+      background-color: $color-text;
+      color: $color-bg;
+    }
+  }
+}
