@@ -13,17 +13,17 @@ export const NavBar = () => {
         </div>
         <div className="nav-bar__menu">
           <ul>
-            <li className="nav-bar__menu--puff">
-              <a href="#">
-                <img src={iconpufipuff} alt="icon puff" />
-                Pufi Puff
+            <li className="nav-bar__menu--rain">
+              <a href="#puffi-rain-section">
+                <img src={iconpufirain} alt="icon rain" />
+                Pufi Rain
               </a>
             </li>
 
-            <li className="nav-bar__menu--rain">
-              <a href="#">
-                <img src={iconpufirain} alt="icon rain" />
-                Pufi Rain
+            <li className="nav-bar__menu--puff">
+              <a href="#puffi-puff-section">
+                <img src={iconpufipuff} alt="icon puff" />
+                Pufi Puff
               </a>
             </li>
 

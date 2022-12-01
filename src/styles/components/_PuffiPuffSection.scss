@@ -1,0 +1,109 @@
+#puffi-puff-section {
+  width: 100%;
+}
+
+.puffi-puff-section__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+
+  & .puffi-puff-section__container--text {
+    width: 100%;
+    height: 100%;
+    @include flex(column, center, center);
+    padding: 0px 40px;
+    & h1 {
+      @include font(24px, 600, $color-text);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    & p {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    & h1::after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 1px;
+      background-color: $color-text;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+
+  & button {
+    @include font(16px, 600, $color-text);
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all $animation-duration ease-in-out;
+
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px;
+    margin: 0px;
+
+    & .puffi-puff-section__container--text {
+      padding: 0px 20px;
+
+      & h1 {
+        @include font(20px, 600, $color-text);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.puffi-puff__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.puffi-puff__thumbnail {
+  width: 130px;
+}
+
+.puffi-puff-section__container--image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  & button {
+    @include button($color-bg, $color-text, 0, $shadow-1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all $animation-duration ease-in-out;
+    &:hover {
+      background-color: $color-text;
+      color: $color-bg;
+    }
+  }
+}
+
+.puffi-puff-section__container--image:hover button {
+  opacity: 1;
+}

@@ -36,6 +36,20 @@
     margin: 0 20px;
   }
 
+  & ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: $color-bg;
+    transition: width 0.3s;
+  }
+
+  & ul li a:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+
   & ul li a {
     @include font(16px, 600, $color-bg);
     @include flex(column, center, center);
@@ -48,7 +62,6 @@
     margin-bottom: 6px;
     height: 32px;
   }
-
 }
 
 .nav-bar__menu--puff,
