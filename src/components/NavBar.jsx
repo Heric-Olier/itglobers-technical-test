@@ -3,7 +3,6 @@ import iconpufipuff from "../assets/icon-pufi-puff.svg";
 import iconpufirain from "../assets/icon-pufi-rain.svg";
 import iconpuficart from "../assets/icon-pufi-cart.svg";
 import iconpufinap from "../assets/icon-pufi-nap.svg";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
@@ -31,13 +30,13 @@ export const NavBar = () => {
             </li>
 
             <li className="nav-bar__menu--cart">
-              <a href="#">
+              <a href="#puffi-cart-section">
                 <img src={iconpuficart} alt="icon cart" />
                 Pufi Cart
               </a>
             </li>
             <li className="nav-bar__menu--nap">
-              <a href="#">
+              <a href="#puffi-nap-section">
                 <img src={iconpufinap} alt="icon nap" />
                 Pufi Naf
               </a>

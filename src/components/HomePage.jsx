@@ -3,6 +3,7 @@ import {
   PuffiRainSection,
   PuffiPuffSection,
   PuffiCartSection,
+  PuffiNapSection,
 } from "../components";
 
 export const HomePage = () => {
@@ -12,6 +13,7 @@ export const HomePage = () => {
       <PuffiRainSection />
       <PuffiPuffSection />
       <PuffiCartSection />
+      <PuffiNapSection />
     </>
   );
 };
