@@ -6,7 +6,7 @@ export const HomePage = () => {
     <>
       <HeroSection />
       <PuffiRainSection />
-   
+      <PuffiPuffSection />
       
     </>
   )
