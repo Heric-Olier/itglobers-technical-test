@@ -14,7 +14,7 @@ export const PuffiPuffSection = () => {
           <h1> Pufi PUFF </h1>
           <p>
             Pufi Puff is a new product that will change <br />
-            the way you see the rain.
+            the way you see the puff.
           </p>
           <div className="puffi-puff-section__container--button">
             <button>{`>`} See More</button>

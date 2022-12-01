@@ -64,6 +64,10 @@
   }
 }
 
+.nav-bar__user--account{
+    @include flex(row, center, center);
+}
+
 .nav-bar__menu--puff,
 .nav-bar__menu--rain,
 .nav-bar__menu--cart,

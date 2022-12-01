@@ -54,6 +54,8 @@
 
   /* Tablet */
   @media (max-width: $breakpoint-tablet) {
+    /*cambiamos la direccion de las columnas*/
+
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0px;

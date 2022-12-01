@@ -4,6 +4,9 @@ import iconpufirain from "../assets/icon-pufi-rain.svg";
 import iconpuficart from "../assets/icon-pufi-cart.svg";
 import iconpufinap from "../assets/icon-pufi-nap.svg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
 export const NavBar = () => {
   return (
     <div className="nav-bar">
@@ -45,6 +48,8 @@ export const NavBar = () => {
           <ul>
             <li className="nav-bar__user--account">
               <a href="#">My Account</a>
+              <FontAwesomeIcon icon={faAngleDown}
+              style={{ color: "white", marginLeft: "8px" }} />
             </li>
             <li>
               <a href="#">My Purchases</a>

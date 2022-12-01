@@ -1,5 +1,9 @@
-import { HeroSection, PuffiRainSection, PuffiPuffSection } from "../components";
-
+import {
+  HeroSection,
+  PuffiRainSection,
+  PuffiPuffSection,
+  PuffiCartSection,
+} from "../components";
 
 export const HomePage = () => {
   return (
@@ -7,8 +11,7 @@ export const HomePage = () => {
       <HeroSection />
       <PuffiRainSection />
       <PuffiPuffSection />
-      
+      <PuffiCartSection />
     </>
-  )
-}
-
+  );
+};
