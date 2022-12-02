@@ -8,10 +8,12 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 export const NavBar = () => {
   return (
-    <div className="nav-bar">
+    <nav className="nav-bar">
       <div className="nav-bar__container">
         <div className="nav-bar__logo">
+          <a href="#hero-section">
           <img className="logo-nav" src={navbarlogo} alt="logo" />
+          </a>
         </div>
         <div className="nav-bar__menu">
           <ul>
@@ -48,7 +50,7 @@ export const NavBar = () => {
             <li className="nav-bar__user--account">
               <a href="#">My Account</a>
               <FontAwesomeIcon icon={faAngleDown}
-              style={{ color: "white", marginLeft: "8px" }} />
+              style={{ color: "white", marginLeft: "8px", cursor: "pointer" }} />
             </li>
             <li>
               <a href="#">My Purchases</a>
@@ -57,6 +59,6 @@ export const NavBar = () => {
         </div>
       </div>
       
-    </div>
+    </nav>
   );
 };

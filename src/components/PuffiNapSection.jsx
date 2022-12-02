@@ -3,7 +3,7 @@ import puffinapthumbnail from "../assets/pufi-nap-thumbnail.jpg";
 
 export const PuffiNapSection = () => {
   return (
-    <div id="puffi-nap-section">
+    <section id="puffi-nap-section">
       <div className="puffi-nap-section__container">
         <div className="puffi-nap-section__container--text">
           <img
@@ -29,6 +29,6 @@ export const PuffiNapSection = () => {
           <button>Shop Now</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

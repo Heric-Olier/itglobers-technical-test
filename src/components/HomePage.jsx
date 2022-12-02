@@ -6,6 +6,7 @@ import {
   PuffiNapSection,
   SocialSection,
   SubscribeSection,
+  FooterSection,
 } from "../components";
 
 export const HomePage = () => {
@@ -18,6 +19,7 @@ export const HomePage = () => {
       <PuffiNapSection />
       <SocialSection />
       <SubscribeSection />
+      <FooterSection />
     </>
   );
 };

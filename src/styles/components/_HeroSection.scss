@@ -1,7 +1,6 @@
-.hero-section {
+#hero-section {
   @include bg-image("../assets/heroImage.jpg", no-repeat, center, cover);
   height: 100vh;
-  display: flex;
   @include flex(column, center, center);
   position: relative;
 }

@@ -2,7 +2,7 @@ import { NavBar } from "../components";
 
 export const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div id="hero-section">
       <NavBar />
       <div className="hero-section__container">
         <div className="hero-section__container--text">

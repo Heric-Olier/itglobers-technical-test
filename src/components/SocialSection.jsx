@@ -7,7 +7,7 @@ import socialimage6 from "../assets/social-grid-image-6.jpg";
 
 export const SocialSection = () => {
   return (
-    <div className="social-section">
+    <section className="social-section">
       <div className="social-section__container">
         <div className="social-section__container--text">
           <p>Follow us on Instagram to see our latest products and news.</p>
@@ -22,6 +22,6 @@ export const SocialSection = () => {
           <img src={socialimage6} alt="social grid image 6" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

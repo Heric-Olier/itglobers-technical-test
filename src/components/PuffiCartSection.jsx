@@ -3,7 +3,7 @@ import pufficartthumbnail from "../assets/pufi-cart-thumbnail.jpg";
 
 export const PuffiCartSection = () => {
   return (
-    <div id="puffi-cart-section">
+    <section id="puffi-cart-section">
       <div className="puffi-cart-section__container">
         <div className="puffi-cart-section__container--image">
           <img
@@ -27,6 +27,6 @@ export const PuffiCartSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

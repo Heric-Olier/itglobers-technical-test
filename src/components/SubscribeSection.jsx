@@ -12,7 +12,7 @@ export const SubscribeSection = () => {
   const { value } = useSelector((state) => state.email); // useSelector es un hook de react-redux que nos permite acceder al estado de la store
 
   return (
-    <div className="subscribe-section">
+    <section className="subscribe-section">
       <div className="subscribe-section__container">
         <h1>Subscribe to our newsletter</h1>
         <p>Get the latest news and offers</p>
@@ -28,6 +28,6 @@ export const SubscribeSection = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

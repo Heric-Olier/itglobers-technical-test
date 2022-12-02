@@ -3,7 +3,7 @@ import puffirainthumbnail from "../assets/pufi-rain-thumbnail.jpg";
 
 export const PuffiRainSection = () => {
   return (
-    <div id="puffi-rain-section">
+    <section id="puffi-rain-section">
       <div className="puffi-rain-section__container">
         <div className="puffi-rain-section__container--image">
           <img
@@ -27,6 +27,6 @@ export const PuffiRainSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
