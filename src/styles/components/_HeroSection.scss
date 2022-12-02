@@ -1,20 +1,38 @@
 #hero-section {
-  @include bg-image("../assets/heroImage.jpg", no-repeat, center, cover);
+  // @include bg-image("../assets/heroImage.jpg", no-repeat, center, cover);
   height: 100vh;
   @include flex(column, center, center);
   position: relative;
-
-  /* Tablet */
-  
 }
 
 .hero-section__container {
   width: 100%;
+  height: 100%;
   @include flex(column, center, center);
 }
 
-.hero-section__container--text {
+.hero-section__container--image {
+  @include flex(row, center, center);
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
+
+.hero-section__container--text {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
   & h4 {
     @include font(60px, 700, $color-bg);
     text-transform: uppercase;
@@ -25,19 +43,25 @@
 
     /* Tablet */
     @media (max-width: $breakpoint-tablet) {
+      width: 100%;
       @include font(40px, 700, $color-bg);
       margin-bottom: 60px;
     }
 
     /* Mobile */
     @media (max-width: $breakpoint-mobile) {
-      @include font(26px, 900, $color-bg);
+      @include font(26px, 700, $color-bg);
       margin-bottom: 40px;
     }
   }
 }
 
 .hero-section__container--button {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
   @include flex(row, center, center);
   & button {
     @include button($color-bg, $color-text, 0, $shadow-1);
@@ -52,5 +76,44 @@
       background-color: $color-text;
       color: $color-bg;
     }
+  }
+}
+
+/* Swiper */
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  color: $color-text;
+  border-radius: 50%;
+  outline: 0;
+  background: $color-bg;
+
+  &:after {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: $color-bg;
+  opacity: 1;
+
+  &.swiper-pagination-bullet-active {
+    background-color: $color-text;
+    border: 1px solid $color-bg;
   }
 }
