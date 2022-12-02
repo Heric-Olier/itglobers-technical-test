@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.05927in" height="5.66667in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5489.96 3860.13"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M5375.25 603.98c-63.14,-237.74 -249.17,-424.98 -485.37,-488.52 -428.13,-115.46 -2144.89,-115.46 -2144.89,-115.46 0,0 -1716.75,0 -2144.89,115.46 -236.2,63.55 -422.23,250.78 -485.37,488.52 -114.72,430.92 -114.72,1329.98 -114.72,1329.98 0,0 0,899.07 114.72,1329.98 63.14,237.74 249.17,417.18 485.37,480.72 428.14,115.46 2144.89,115.46 2144.89,115.46 0,0 1716.75,0 2144.89,-115.46 236.2,-63.54 422.23,-242.98 485.37,-480.72 114.72,-430.92 114.72,-1329.98 114.72,-1329.98 0,0 0,-899.07 -114.72,-1329.98zm-3191.74 2146.27l0 -1632.57 1434.87 816.31 -1434.87 816.27z"/>
+ </g>
+</svg>
