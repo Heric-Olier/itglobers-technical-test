@@ -1,3 +1,6 @@
+import heroimage1 from "../assets/heroimage1.jpg";
+import heroimage2 from "../assets/heroimage2.jpg";
+import heroimage3 from "../assets/heroimage3.jpg";
 import { NavBar } from "../components";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -5,9 +8,6 @@ import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import heroimage1 from "../assets/heroimage1.jpg";
-import heroimage2 from "../assets/heroimage2.jpg";
-import heroimage3 from "../assets/heroimage3.jpg";
 
 
 export const HeroSection = () => {
@@ -25,11 +25,11 @@ export const HeroSection = () => {
           autoplay={{ delay: 4000 }}
           style={{ width: "100%", height: "100%" }}
         >
-          {/* <SwiperSlide style={{ display: "flex", justifyContent: "center" }}>
+          <SwiperSlide style={{ display: "flex", justifyContent: "center" }}>
             <div className="hero-section__container--image">
               <img src={heroimage1} alt="heroimage1" />
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
           <SwiperSlide style={{ display: "flex", justifyContent: "center" }}>
             <div className="hero-section__container--image">
               <img src={heroimage2} alt="heroimage2" />
