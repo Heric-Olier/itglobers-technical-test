@@ -40,7 +40,7 @@ export const NavBar = () => {
             <li className="nav-bar__menu--nap">
               <a href="#puffi-nap-section">
                 <img src={iconpufinap} alt="icon nap" />
-                Pufi Naf
+                Pufi Nap
               </a>
             </li>
           </ul>

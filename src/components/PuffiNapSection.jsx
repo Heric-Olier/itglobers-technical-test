@@ -13,7 +13,7 @@ export const PuffiNapSection = () => {
           />
           <h1> Pufi NAP </h1>
           <p>
-            Pufi Puff is a new product that will change <br />
+            Pufi Nap is a new product that will change <br />
             the way you see the nap.
           </p>
           <div className="puffi-nap-section__container--button">

@@ -3,6 +3,9 @@
   height: 100vh;
   @include flex(column, center, center);
   position: relative;
+
+  /* Tablet */
+  
 }
 
 .hero-section__container {
