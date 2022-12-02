@@ -1,5 +1,10 @@
 #puffi-cart-section {
   width: 100%;
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    padding: 12px;
+  }
 }
 
 .puffi-cart-section__container {

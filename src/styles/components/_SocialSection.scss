@@ -2,6 +2,11 @@
   width: 100%;
   padding: 100px 0px;
   @include flex(column, center, center);
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    padding: 12px;
+  }
 }
 
 .social-section__container {
@@ -30,7 +35,7 @@
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 12px;
     margin-top: 60px;
 
     & img {

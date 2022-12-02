@@ -109,7 +109,7 @@
 
 .footer__content-copyright {
   width: 100%;
-  padding: 16px 30px;
+  padding: 16px 70px;
   margin: 0 auto;
   border-top: 1px solid #b99f877a;
   position: absolute;
@@ -121,7 +121,6 @@
     font-weight: 300;
     text-align: center;
     color: $color-bg;
-    padding: 0 40px;
     opacity: 0.6;
 
     /* Tablet */
@@ -134,13 +133,13 @@
     width: 104px;
   }
 
-    /* Tablet */
-    @media (max-width: $breakpoint-tablet) {
-      padding: 16px 20px;
-    }
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    padding: 16px 20px;
+  }
 
-    /* Mobile */
-    @media (max-width: $breakpoint-mobile) {
-      padding: 16px 20px;
-    }
+  /* Mobile */
+  @media (max-width: $breakpoint-mobile) {
+    padding: 16px 20px;
+  }
 }

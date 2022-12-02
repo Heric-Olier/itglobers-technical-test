@@ -1,5 +1,10 @@
 #puffi-rain-section {
   width: 100%;
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    padding: 12px;
+  }
 }
 
 .puffi-rain-section__container {
@@ -62,7 +67,7 @@
     margin: 0px;
 
     & .puffi-rain-section__container--text {
-        padding: 24px;
+      padding: 24px;
 
       & h1 {
         @include font(20px, 600, $color-text);

@@ -16,7 +16,7 @@
 .hero-section__container--text {
   width: 100%;
   & h4 {
-    @include font(60px, 900, $color-bg);
+    @include font(60px, 700, $color-bg);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 80px;
@@ -25,7 +25,7 @@
 
     /* Tablet */
     @media (max-width: $breakpoint-tablet) {
-      @include font(40px, 900, $color-bg);
+      @include font(40px, 700, $color-bg);
       margin-bottom: 60px;
     }
 

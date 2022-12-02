@@ -1,5 +1,10 @@
 #puffi-puff-section {
   width: 100%;
+
+  /* Tablet */
+  @media (max-width: $breakpoint-tablet) {
+    padding: 12px;
+  }
 }
 
 .puffi-puff-section__container {
