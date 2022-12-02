@@ -11,17 +11,17 @@ export const HeroSection = () => {
     {
       id: 1,
       image:
-        "https://raw.githubusercontent.com/Heric-Olier/images-repository/main/heroImage1.jpg?token=GHSAT0AAAAAABWFNSCKPWAMM6XK2RKCA2MGY4KIDRQ",
+        "https://i.postimg.cc/qq3Mp9VS/hero-Image1.jpg",
     },
     {
       id: 2,
       image:
-        "https://raw.githubusercontent.com/Heric-Olier/images-repository/main/heroImage2.jpg?token=GHSAT0AAAAAABWFNSCK5L44ARHJ24WRUIFCY4KIEKA",
+        "https://i.postimg.cc/RF5KPs0G/hero-Image2.jpg",
     },
     {
       id: 3,
       image:
-        "https://raw.githubusercontent.com/Heric-Olier/images-repository/main/heroImage3.jpg?token=GHSAT0AAAAAABWFNSCLUMY2BK3KNF6UTW56Y4KIGWA",
+        "https://i.postimg.cc/cCmsqHB6/hero-Image3.jpg",
     },
   ];
 
