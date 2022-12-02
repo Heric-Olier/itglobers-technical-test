@@ -16,17 +16,19 @@ export const SubscribeSection = () => {
       <div className="subscribe-section__container">
         <h1>Subscribe to our newsletter</h1>
         <p>Get the latest news and offers</p>
-        <div className="subscribe-section__container--input">
+        <form className="subscribe-section__container--form">
           <input
             type="text"
             placeholder="Your email"
+            required
             value={value}
             onChange={onChange}
           />
-          <button>
+          <button
+            type="submit">
             <FontAwesomeIcon icon={faArrowRight}/>
           </button>
-        </div>
+        </form>
       </div>
     </section>
   );
